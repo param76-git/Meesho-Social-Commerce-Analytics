@@ -261,7 +261,7 @@ Meesho-Social-Commerce-Analytics
 
 ## Author
 
-**Ishank Kumar**
+**Paramjeet Kumawat**
 
 B.Tech
 PDPM IIITDM Jabalpur
