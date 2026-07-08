@@ -4,7 +4,7 @@
 
 Meesho operates in a unique segment of Indian e-commerce where social selling, reseller-driven demand, high Cash-on-Delivery (COD) adoption, and significant Tier-2/Tier-3 market penetration shape customer behavior.
 
-This project simulates a realistic Meesho-style social commerce ecosystem and analyzes it using SQL, Python, and Tableau to answer real business questions related to revenue growth, customer retention, churn risk, product performance, and supplier quality.
+This project simulates a realistic Meesho-style social commerce ecosystem and analyzes it using SQL, Python, and Power BI to answer real business questions related to revenue growth, customer retention, churn risk, product performance, and supplier quality.
 
 The objective was not to build dashboards first, but to approach the dataset from a business analyst's perspective by identifying important business problems and solving them through data.
 
@@ -31,17 +31,17 @@ The dataset is synthetic but designed to closely mimic the behavior of an Indian
 
 ### Dataset Scale
 
-| Table             | Records |
-| ----------------- | ------: |
-| Customers         |  12,000 |
-| Orders            |  25,000 |
-| Order Items       |  43,977 |
-| Products          |   2,500 |
-| Suppliers         |     150 |
-| Reviews           |   9,503 |
-| Returns           |   2,501 |
-| Resellers         |   1,000 |
-| Reseller Activity |  17,500 |
+| Table | Records |
+|------------------|-------:|
+| Customers | 12,000 |
+| Orders | 25,000 |
+| Order Items | 43,977 |
+| Products | 2,500 |
+| Suppliers | 150 |
+| Reviews | 9,503 |
+| Returns | 2,501 |
+| Resellers | 1,000 |
+| Reseller Activity | 17,500 |
 
 ### Realistic Business Characteristics
 
@@ -60,28 +60,20 @@ The dataset was designed to replicate key characteristics of Indian social comme
 ## Tech Stack
 
 * **Python**
-
   * Pandas
   * NumPy
   * Matplotlib
   * Seaborn
 
 * **Database**
-
   * Microsoft SQL Server
 
 * **Analytics**
-
   * SQL
   * Python
 
 * **Visualization**
-
-  * Tableau
-
-* **Version Control**
-
-  * Git & GitHub
+  * Power BI
 
 ---
 
@@ -98,7 +90,7 @@ Synthetic Data Generation
             ↓
    Python Validation & EDA
             ↓
-     Tableau Dashboards
+      Power BI Dashboards
             ↓
      Business Insights
 ```
@@ -163,7 +155,6 @@ Synthetic Data Generation
 ### Segmentation
 
 * RFM Analysis
-
   * Recency
   * Frequency
   * Monetary Value
@@ -221,7 +212,7 @@ Meesho-Social-Commerce-Analytics
 │   └── analytics.sql
 │
 ├── dashboards/
-│   └── tableau_dashboard.twb
+│   └── meesho_social_commerce_dashboard.pbix
 │
 └── README.md
 ```
@@ -237,7 +228,7 @@ Meesho-Social-Commerce-Analytics
 * ✅ SQL Database Design
 * ✅ 20+ Business SQL Queries
 * ✅ Python Exploratory Data Analysis
-* 🔄 Tableau Dashboard Development
+* 🔄 Power BI Dashboard Development
 
 ### Planned Dashboards
 
@@ -255,7 +246,7 @@ Meesho-Social-Commerce-Analytics
 * Designed and queried a relational SQL database.
 * Solved 20+ business-focused analytical problems.
 * Applied industry-standard customer analytics techniques such as RFM and Cohort Analysis.
-* Combined SQL, Python, and Tableau into a complete analytics workflow.
+* Integrated SQL, Python, and Power BI to build an end-to-end analytics solution, from data preparation to business insights.
 
 ---
 
@@ -263,7 +254,7 @@ Meesho-Social-Commerce-Analytics
 
 **Paramjeet Kumawat**
 
-B.Tech
+B.Tech  
 PDPM IIITDM Jabalpur
 
-Interested in Data Analytics, Business Analytics, SQL, Visualization, and Data-Driven Decision Making.
+Interested in Data Analytics, Business Analytics, SQL, Power BI, Visualization, and Data-Driven Decision Making.
